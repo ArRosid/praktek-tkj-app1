@@ -3,9 +3,9 @@
 ## Jalankan
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+apt update
+apt install python3-pip
+pip3 install -r requirements.txt --break-system-packages
 python app.py
 ```
 
